@@ -9,6 +9,7 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -21,6 +22,12 @@ function App() {
           <Route path="/home">
             <Home></Home>
             </Route>
+          <Route  path="/blogs">
+            <Blogs></Blogs>
+          </Route>
+          <Route  path="/contact">
+            <Contact></Contact>
+          </Route>
           <Route  path="/contact">
             <Contact></Contact>
           </Route>

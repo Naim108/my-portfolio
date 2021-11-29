@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button, Container, Dropdown, Nav, Navbar } from 'react-bootstrap';
+import {  Container, Navbar } from 'react-bootstrap';
+import { NavHashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import './Header.css'
 
@@ -13,9 +14,9 @@ const Header = () => {
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end ">
     <Link className="nav-bar" to="/home">Home</Link>
-    <Link className="nav-bar" to="/contact">Projects</Link>
-    <Link className="nav-bar" to="/contact">Blogs</Link>
-    <Link className="nav-bar" to="/contact">Contact Me</Link>
+    <NavHashLink activeClassName="selected" className="nav-bar" to="/home#projects">Projects</NavHashLink>
+    <NavHashLink activeClassName="selected" className="nav-bar" to="/home#blogs">Blogs</NavHashLink>
+    <NavHashLink activeClassName="selected" className="nav-bar" to="/home#contact">Contact Me</NavHashLink>
     </Navbar.Collapse>
     </Container>
   </Navbar>

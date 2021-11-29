@@ -1,0 +1,7 @@
+.image{
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: rgb(224, 219, 219);
+    margin-right: 150px;
+    margin-top: -10px;
+}

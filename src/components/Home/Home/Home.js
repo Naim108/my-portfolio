@@ -1,8 +1,12 @@
 import React from 'react';
 import Typical from 'react-typical'
 import resume from '../../../images/Md-Naim-Hossain-Resume.pdf'
+import About from '../../About/About';
 import Contact from '../../Contact/Contact/Contact';
+import Projects from '../../Projects/Projects';
+import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
+import Testimonial from '../../Testimonial/Testimonial';
 import './Home.css'
 
 const Home = () => {
@@ -67,7 +71,12 @@ const Home = () => {
             </div>
            
         </div>
+        
+        <About></About>
+        <Projects></Projects>
+        <Testimonial></Testimonial>
         <Contact></Contact>
+        <Footer></Footer>
         </>
     );
 };
