@@ -1,0 +1,47 @@
+.banner-container{
+    background-image: url('../../../images/bg2.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-details{
+    margin-top: 200px;
+}
+.style-name{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.social-icon{
+    padding: 30px;
+}
+.icon{
+    margin-right: 30px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-color: white;
+    color: white;
+}
+.image{
+    border-radius: 50%;
+    height: 300px;
+    margin-top: 70px;
+}
+.text-color{
+    color:   #ffa700 ;
+}
+.btn-design{
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 5px;
+    height: 50px;
+    width: 120px;
+    margin: 20px;
+}
