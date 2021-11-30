@@ -45,3 +45,6 @@
     width: 120px;
     margin: 20px;
 }
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

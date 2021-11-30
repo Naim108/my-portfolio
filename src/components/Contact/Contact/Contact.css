@@ -22,3 +22,12 @@
     color: white;
     
 }
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .input{
+        width: 250px;
+    }
+    .input-area{
+        width: 250px;
+    }
+}

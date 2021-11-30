@@ -13,7 +13,7 @@ const About = () => {
                     <img className="image" src={img} alt="" />
                     
                 </div>
-                <div className="col-md-6 text-right fw-bold">
+                <div className="col-md-6 details text-right fw-bold">
                     <h1 classNam="fw-bold">I'm Naim</h1>
                 <p>
 An aspiring web developer with built-in curiosity and a clear mind.
