@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <div>
-            <h3>footer</h3>
+        <div className="footer">
+            <p>© 2021-Naim Hossain</p>
         </div>
     );
 };

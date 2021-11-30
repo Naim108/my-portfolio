@@ -2,8 +2,11 @@ import React from 'react';
 
 const Testimonial = () => {
     return (
-        <div>
-            <h2>This is testimonial section</h2>
+        <div className="container mt-5">
+             <h2 className="fw-bold mb-5  ">Testimonial <br />
+            <i class="far fa-window-minimize"></i>
+            </h2>
+
         </div>
     );
 };

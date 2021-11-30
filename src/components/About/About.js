@@ -5,7 +5,9 @@ import './About.css'
 const About = () => {
     return (
         <div className="container mt-5">
-            <h2 className="text-color fw-bold">About</h2>
+            <h2 className="fw-bold mb-5 ">About Me <br />
+            <i class="far fa-window-minimize"></i>
+            </h2>
             <div className="row mt-3">
                 <div className="col-md-6">
                     <img className="image" src={img} alt="" />
